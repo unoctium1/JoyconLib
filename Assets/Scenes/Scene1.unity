@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641222, b: 0.57481664, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 175246626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94e779533a395cef09d06af18014281f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5063147996642e24ea37c657d144fd01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EnableIMU: 1
@@ -210,7 +210,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18139ab0322f086b2a0d86669c5ff602, type: 2}
+  - {fileID: 2100000, guid: 31a0d6f688112f248aea1b10e6455b9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -277,13 +277,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 195250745}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59039b98ce4e55a14bcf580ec07d776b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f54ed95f9a24e04292ec320b108499e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stick: []
   gyro: {x: 0, y: 0, z: 0}
   accel: {x: 0, y: 0, z: 0}
-  jc_ind: 1
+  jc_ind: 0
   orientation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &250149498
 GameObject:
@@ -325,7 +325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18139ab0322f086b2a0d86669c5ff602, type: 2}
+  - {fileID: 2100000, guid: 31a0d6f688112f248aea1b10e6455b9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 250149498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59039b98ce4e55a14bcf580ec07d776b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f54ed95f9a24e04292ec320b108499e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stick: []
